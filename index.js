@@ -72,10 +72,9 @@ function generateContactString() {
   <h3>Get in touch with me on any of these mediums</h3>
   <ul class="contactList">
     <!-- list elements to hyperlink to my respective pages in JS -->
-    <li class="social_icon"><a href="https://github.com/lstribli" class="fa fa-github-square"></a></li>
-    <li class="social_icon"><a href="https://www.linkedin.com/in/logan-stribling-a0573b1a5/"	class="fa fa-linkedin-square"></a></li>
-    <li class="social_icon"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=logan.stribling@gmail.com
-    " class="fa fa-google-plus-square"></a></li>
+    <li class="social_icon"><a href="https://github.com/lstribli" target="_blank"class="fa fa-github-square"></a></li>
+    <li class="social_icon"><a href="https://www.linkedin.com/in/logan-stribling-a0573b1a5/" target="_blank"	class="fa fa-linkedin-square"></a></li>
+    <li class="social_icon"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=logan.stribling@gmail.com" target="_blank" class="fa fa-google-plus-square"></a></li>
   </ul>
 </section>`;
 }
@@ -90,7 +89,7 @@ function generateProjectsString() {
         
   <section class="quizApp">
   <h2>QuizApp</h2>
-  <a href="https://github.com/lstribli/QuizApp"><img src="" alt="QuizApp Screenshot"></a>
+  <a href="https://github.com/lstribli/QuizApp" target="_blank"><img src="" alt="QuizApp Screenshot"></a>
   <p>
   This fully-interactive web app is one of the first projects I built during my coursework at Thinkful.
   The app was built in one day, at the end of the first week.
@@ -98,7 +97,7 @@ function generateProjectsString() {
 </section>
 
   <section class="society">
-  <a href=""><img src="https://media.discordapp.net/attachments/502185091364028427/685453169676779555/oxy.png" alt="Society's Playground"></a>
+  <a href="" target="_blank"><img src="https://media.discordapp.net/attachments/502185091364028427/685453169676779555/oxy.png" alt="Society's Playground"></a>
   <h2>Society's Playground</h2>
   <p>
    I built this website as a side project for a server on "Rust," one of the most-played games on Steam.
@@ -131,7 +130,7 @@ function renderStart() {
 }
 function listenClick() {
   $('body').on('click', (function (event) {
-    event.preventDefault();
+    // event.preventDefault();
     event.currentTarget === this;
   }));
 }
