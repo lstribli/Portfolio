@@ -9,83 +9,48 @@
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Public+Sans:wght@600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.iconify.design/1/1.0.5/iconify.min.js"></script>
   </head>
   <header>
-    <h1>Logan Stribling</h1>
-    <h2>Software Engineer</h2>
-    <h3></h3>
-    <!-- <div class="title">
-      <img
-        src="https://scontent-den4-1.xx.fbcdn.net/v/t31.0-8/200979_494511077234182_272465271_o.jpg?_nc_cat=101&_nc_sid=7aed08&_nc_ohc=qwdxnqBoKIgAX_JUiuK&_nc_ht=scontent-den4-1.xx&oh=bbfd14988be6afd2faa9530eda887ce2&oe=5EA9D749"
-      />
-    </div> -->
+    <button class="headerButton">
+      <h1>Logan Stribling</h1>
+      <h2>Software Engineer</h2>
+      <h3></h3>
+    </button>
   </header>
   <body>
     <nav class="navbar">
       <ul class="navList">
-        <li class="bio" id="bio"><a href="/">BIO</a></li>
-        <li class="contact" id="contact"><a href="/">CONTACT</a></li>
-        <li class="projects" id="projects"><a href="/">PROJECTS</a></li>
+        <li class="bio" id="bio">
+          <button id="bio" class="button">BIO</button>
+        </li>
+        <li class="contact" id="contact">
+          <button id="contact" class="button">CONTACT</button>
+        </li>
+        <li class="projects" id="projects">
+          <button id="projects" class="button">PROJECTS</button>
+        </li>
       </ul>
     </nav>
-    <main class="biography">
-      <section class="bio">
-      <div class="bioContent">
-        <h3>WHERE I'VE BEEN</h3>
-        <p>
-          I am originally from Makawao, HI. I grew up surfing the beaches and
-          exploring the jungles of the island of Maui. In my high school years
-          my family was relocated to Albuqeruque, NM where I found a passion for
-          CAD and engineering systems. For the next ten years I studied and
-          worked in high-tech manufacturing, opening more opportunities for
-          myself and moving again to Colorado, eventually settling in downtown
-          Louisville. Here I enjoy every mountain sport there is and living life
-          with my friends and family that I've found here.
-        </p>
-        <img src="https://via.placeholder.com/300" alt="img" />
-      </div>
-    </section>
-      
-      <div class="bioContent">
-        <h3>WHAT I'M DOING</h3>
-        <p>
-          I'm a software engineer, machinist and maker. Fueled by my beliefs
-          that aesthetics and user experience are an essential integration to
-          everything we make or use, I bring a unique approach to design in
-          everything I do. Currently a student at Thinkful, I'm learning the
-          skills to create powerful, user-friendly applications for machine and
-          server interfaces with limitless applications. My extensive experience
-          in manufacturing ensures I will understand the challenges your
-          business faces and create a tailor- made solution that will maximize
-          your efficiency. It is my personal mission to create tools that push
-          businesses to be competitive at the next level, whether its a small
-          shop looking to expand or a business of thirty years.
-        </p>
-      </div>
-      <div>
-        <img src="https://via.placeholder.com/300" alt="img" />
-      </div>
-      <div class="bioContent">
-        <h3>WHAT I HOPE TO DO</h3>
-        <p>
-          Through everything I have and will do, I aspire to be the best
-          designer and human being I can be. I hope to use all of my skills and
-          experience to contribute to deepening our knowledge of the cosmos,
-          using my applications and software to support the aerospace industry
-          and all applicable applied sciences. Increasing the level of our
-          world's technology means increasing the opportunities and quality of
-          life available to everyone and a great deal of these technologies have
-          come from the continued development of space exploration programs.
-        </p>
-      </div>
-      <div>
-        <img src="https://via.placeholder.com/300" alt="img" />
-      </div>
+
+    <!-- all dynamic html inserted here -->
+    <main>
+      <section class="mainImg">
+        <img
+          src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/50943359_2305592866125985_5663419845887131648_n.jpg?_nc_cat=100&_nc_sid=174925&_nc_ohc=wvnDKZb7ZOkAX-bCDyT&_nc_ht=scontent-den4-1.xx&oh=77c971e2a095e9399ca4aed4567ee9e4&oe=5EAD442D"
+          alt="A photo of me"
+        />
+      </section>
     </main>
-    <div class="bioPhoto">
-      <img src="https://via.placeholder.com/300" alt="img" />
-    </div>
   </body>
-</html>
-  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="index.js"></script>
 </html>
