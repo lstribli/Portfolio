@@ -50,11 +50,12 @@ function generateBioString() {
       Through everything I have and will do, I aspire to be the best
       designer and human being I can be. I hope to use all of my skills and
       experience to contribute to deepening our knowledge of the cosmos,
-      using my applications and software to support the aerospace industry
-      and all applicable applied sciences. Increasing the level of our
-      world's technology means increasing the opportunities and quality of
-      life available to everyone and a great deal of these technologies have
-      come from the continued development of space exploration programs.
+      working with a talented team of developers to create applications and 
+      software to support the aerospace industry and all applicable applied 
+      sciences. Increasing the level of our world's technology means 
+      increasing the opportunities and quality of life available to everyone 
+      and a great deal of these technologies have come from the continued 
+      development of space exploration programs.
     </p>
     
   </section> 
@@ -69,7 +70,20 @@ function renderBioString() {
 
 function generateContactString() {
   return `<section class="contactPage">
-  <h3>Get in touch with me on any of these mediums</h3>
+  <h3>
+  Read through my list of skills and contact me
+  if we'll be a good fit to work together!
+  </h3>
+  <ul class="skillsList">
+  <li class="skillsIcon"><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank" class="fa fa-html5"></a></li>
+  <li class="skillsIcon"><a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank" class="fa fa-css3"></a></li>
+  <li class="skillsIcon"><a href="https://www.javascript.com/" target="_blank" class="	fa fa-jsfiddle"></a></li>
+ 
+  </ul>
+  
+  <h3>
+  Get in touch with me on any of these mediums
+  </h3>
   <ul class="contactList">
     <!-- list elements to hyperlink to my respective pages in JS -->
     <li class="social_icon"><a href="https://github.com/lstribli" target="_blank"class="fa fa-github-square"></a></li>
@@ -86,9 +100,13 @@ function renderContactString() {
 
 function generateProjectsString() {
   return `<section class="projectsPage">
-        
+  <div class="skills">
+  <h3>Check out my contact page for the skills demonstrated in these Apps!</h3>
+  </div>
+  <section class="projectsMain">
   <section class="quizApp">
   <h2>QuizApp</h2>
+  
   <a href="https://github.com/lstribli/QuizApp" target="_blank"><img src="" alt="QuizApp Screenshot"></a>
   <p>
   This fully-interactive web app is one of the first projects I built during my coursework at Thinkful.
@@ -103,6 +121,7 @@ function generateProjectsString() {
    I built this website as a side project for a server on "Rust," one of the most-played games on Steam.
    The site and server itself are both a WIP however the server is fully-playable and deployed.
   </p>
+</section>
 </section>
 
 </section>`;
