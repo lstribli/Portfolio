@@ -114,13 +114,13 @@ function generateProjectsString() {
 </section>
 
   <section class="society">
-  <a href="" target="_blank"><img src="https://media.discordapp.net/attachments/502185091364028427/685453169676779555/oxy.png" alt="Society's Playground"></a>
+  <a href="https://lstribli.github.io/Society-s-Playground/" target="_blank"><img src="https://media.discordapp.net/attachments/502185091364028427/685453169676779555/oxy.png" alt="Society's Playground"></a>
   <h2>Society's Playground</h2>
   <p>
    I built this website using Jquery as a side project for a server on "Rust," one of the most-played games on Steam.
    The site and server itself are both a WIP however the server is fully-playable and deployed.
   </p>
-  <a href="" target="_blank">GitHub repo</a>
+  <a href="https://github.com/lstribli/Society-s-Playground" target="_blank">GitHub repo</a>
 </section>
 </section>
 
