@@ -31,7 +31,18 @@ html::after {
   -o-background-size: cover;
   background-size: cover;
 }
-
+.gmail {
+  display: flex;
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+}
+li img {
+  display: flex;
+  width: 80px;
+  height: auto;
+  border: none;
+}
 .headerButton:hover {
   background-color: midnightblue;
   border: 8px solid silver;
@@ -90,6 +101,8 @@ img {
   flex-wrap: wrap;
   border-radius: 20px;
   border: 5px solid rgb(223, 190, 3);
+  width: 300px;
+  height: auto;
 }
 p {
   display: flex;
@@ -100,6 +113,9 @@ p {
 }
 a {
   color: rgb(223, 190, 3);
+}
+a:hover {
+  color: royalblue;
 }
 footer {
   display: flex;

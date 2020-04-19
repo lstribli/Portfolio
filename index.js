@@ -88,7 +88,7 @@ function generateContactString() {
     <!-- list elements to hyperlink to my respective pages in JS -->
     <li class="social_icon"><a href="https://github.com/lstribli" target="_blank"class="fa fa-github-square"></a></li>
     <li class="social_icon"><a href="https://www.linkedin.com/in/logan-stribling-a0573b1a5/" target="_blank"	class="fa fa-linkedin-square"></a></li>
-    <li class="social_icon"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=logan.stribling@gmail.com" target="_blank" class="fa fa-google-plus-square"></a></li>
+    <li class="social_icon"><a class="gmail" href="https://mail.google.com/mail/?view=cm&fs=1&to=logan.stribling@gmail.com" target="_blank"><img src="https://cdn.clipart.email/f5ee43c6bce0887c06a10900025d77c2_round-gmail-logo-logodix_512-512.png" alt="gmail"></img></a></li>
   </ul>
 </section>`;
 }
@@ -100,27 +100,27 @@ function renderContactString() {
 
 function generateProjectsString() {
   return `<section class="projectsPage">
-  <div class="skills">
-  <h3>Check out my contact page for the skills demonstrated in these Apps!</h3>
-  </div>
+ 
   <section class="projectsMain">
   <section class="quizApp">
   <h2>QuizApp</h2>
   
-  <a href="https://github.com/lstribli/QuizApp" target="_blank"><img src="" alt="QuizApp Screenshot"></a>
+  <a href="https://lstribli.github.io/QuizApp/" target="_blank"><img src="https://lh3.googleusercontent.com/xwNEVEQ4EwPsOTiaZhjOpiekLzhEN0sY8bOksR1QcPg98PGI4lWDVji428wTy7CUQSB6n9VAfyw4XmwSsUwHWqSPDpCYzel7tjcKfaN95XjoEOH1HMFzn1f-Yd3kGnoSkY4e6snABUtajsdKndCG1IgyXC2yyxuOkDHSrSQr3PLDuQVC5lvA21e8fekNNTgfptL-9AKGXT3pUK7hVO5spa_6Ekum6_4l2dw49oe1Tx6ATdpoDf_nco_CKoKqlglt4lfmlg1FWXMm_Mzlhy2tFwcaPyCVfHGtXqzsb8PSTkaMXJnI86G-iCkgNsttxgtOb3AH1WH3aZ-ngnBLHvbG-vzEc5dzSX2rKCzG-eSNptbsiix0ZOQ1ND2l_K6EfFp08ASopT4ApaRNLIA1RfeabCHAiV9WEfYgX0_8Iqfbq5Ogew13L6Me32rL0VSOoAPlwptdyhdCXncGMqOLA4Gi385JAgpfSo2OeRQn8i7AR_iGTrKNzMfbndne4Rn2bG1_M6SSvg33vGkGpECOJ0Z1dgINeJ0TszimUn_PpcBIhW2KbdbdlQg3loeeYPj9TChxpX06amyCrurTWh_4024OylOmlvVmLmdbbJD3G0NIc03vhXyAukYS8BUbIcrH9593lfoM6xCerrlOHQcuR0HecSHkGyU12s9aMub9gwxUTLpCtQ=w1881-h937-no" alt="QuizApp Screenshot"></a>
   <p>
-  This fully-interactive web app is one of the first projects I built during my coursework at Thinkful.
+  This fully-interactive web app is one of the first projects I built in Jquery during my coursework at Thinkful.
   The app was built in one day, at the end of the first week.
   </p>
+  <a href="https://github.com/lstribli/QuizApp" target="_blank">GitHub repo</a>
 </section>
 
   <section class="society">
   <a href="" target="_blank"><img src="https://media.discordapp.net/attachments/502185091364028427/685453169676779555/oxy.png" alt="Society's Playground"></a>
   <h2>Society's Playground</h2>
   <p>
-   I built this website as a side project for a server on "Rust," one of the most-played games on Steam.
+   I built this website using Jquery as a side project for a server on "Rust," one of the most-played games on Steam.
    The site and server itself are both a WIP however the server is fully-playable and deployed.
   </p>
+  <a href="" target="_blank">GitHub repo</a>
 </section>
 </section>
 
