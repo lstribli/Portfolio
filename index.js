@@ -105,10 +105,11 @@ function generateProjectsString() {
   <section class="quizApp">
   <h2>QuizApp</h2>
   
-  <a href="https://lstribli.github.io/QuizApp/" target="_blank"><img src="https://lh3.googleusercontent.com/xwNEVEQ4EwPsOTiaZhjOpiekLzhEN0sY8bOksR1QcPg98PGI4lWDVji428wTy7CUQSB6n9VAfyw4XmwSsUwHWqSPDpCYzel7tjcKfaN95XjoEOH1HMFzn1f-Yd3kGnoSkY4e6snABUtajsdKndCG1IgyXC2yyxuOkDHSrSQr3PLDuQVC5lvA21e8fekNNTgfptL-9AKGXT3pUK7hVO5spa_6Ekum6_4l2dw49oe1Tx6ATdpoDf_nco_CKoKqlglt4lfmlg1FWXMm_Mzlhy2tFwcaPyCVfHGtXqzsb8PSTkaMXJnI86G-iCkgNsttxgtOb3AH1WH3aZ-ngnBLHvbG-vzEc5dzSX2rKCzG-eSNptbsiix0ZOQ1ND2l_K6EfFp08ASopT4ApaRNLIA1RfeabCHAiV9WEfYgX0_8Iqfbq5Ogew13L6Me32rL0VSOoAPlwptdyhdCXncGMqOLA4Gi385JAgpfSo2OeRQn8i7AR_iGTrKNzMfbndne4Rn2bG1_M6SSvg33vGkGpECOJ0Z1dgINeJ0TszimUn_PpcBIhW2KbdbdlQg3loeeYPj9TChxpX06amyCrurTWh_4024OylOmlvVmLmdbbJD3G0NIc03vhXyAukYS8BUbIcrH9593lfoM6xCerrlOHQcuR0HecSHkGyU12s9aMub9gwxUTLpCtQ=w1881-h937-no" alt="QuizApp Screenshot"></a>
+  <a href="https://lstribli.github.io/QuizApp/" target="_blank"><img src="https://media.discordapp.net/attachments/701514992767205459/701515426961555467/Screenshot_3.png?width=940&height=468" alt="QuizApp Screenshot"></a>
   <p>
-  This fully-interactive web app is one of the first projects I built in Jquery during my coursework at Thinkful.
-  The app was built in one day, at the end of the first week.
+  This fully-interactive web app is one of the first assigned projects I built during my coursework at Thinkful.
+  I built it from scratch in VScode using the Jquery library and is intended to show off some skills
+  that I've developed throughout my coursework.
   </p>
   <a href="https://github.com/lstribli/QuizApp" target="_blank">GitHub repo</a>
 </section>
@@ -117,8 +118,12 @@ function generateProjectsString() {
   <a href="https://lstribli.github.io/Society-s-Playground/" target="_blank"><img src="https://media.discordapp.net/attachments/502185091364028427/685453169676779555/oxy.png" alt="Society's Playground"></a>
   <h2>Society's Playground</h2>
   <p>
-   I built this website using Jquery as a side project for a server on "Rust," one of the most-played games on Steam.
+   I built this website using the Jquery javascript library, coding from scratch in VScode using GitBash and GitHub as my tools.
+   This is a side project for a server on "Rust," one of the most-played games on Steam.
    The site and server itself are both a WIP however the server is fully-playable and deployed.
+    The Society's Playground website is a tool used to direct more players to the Game's server, give players information 
+   about the server such as how the server is ran and maintained, console commandsavailable to players and sign up for
+   VIP subscription.
   </p>
   <a href="https://github.com/lstribli/Society-s-Playground" target="_blank">GitHub repo</a>
 </section>

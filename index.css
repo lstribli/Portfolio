@@ -104,6 +104,14 @@ img {
   width: 300px;
   height: auto;
 }
+.quizApp img:hover {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  border: 10px solid silver;
+  width: 300px;
+  height: auto;
+}
 p {
   display: flex;
   flex-wrap: wrap;
@@ -244,7 +252,7 @@ footer {
   margin-top: 25px;
   border-radius: 10px;
   width: 320px;
-  height: 320px;
+  height: fit-content;
   color: rgb(223, 190, 3);
   font-size: 18px;
   font-style: bold;
@@ -261,7 +269,7 @@ footer {
   margin-top: 25px;
   border-radius: 10px;
   width: 320px;
-  height: 320px;
+  height: fit-content;
   color: rgb(223, 190, 3);
   font-size: 18px;
   font-style: bold;
@@ -285,6 +293,18 @@ footer {
   color: rgb(223, 190, 3);
   border-radius: 20px;
   border: 5px solid rgb(223, 190, 3);
+}
+.contactList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skillsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .social {
   display: flex;
@@ -551,12 +571,20 @@ footer {
     margin-top: 25px;
     border-radius: 10px;
     width: 400px;
-    height: 400px;
+    height: fit-content;
     color: rgb(223, 190, 3);
     font-size: 18px;
     font-style: bold;
     background-color: rgb(42, 42, 42);
     margin: 20px;
+  }
+  .quizApp img:hover {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border: 10px solid silver;
+    width: 300px;
+    height: auto;
   }
   .society {
     display: flex;
@@ -569,7 +597,7 @@ footer {
     margin-top: 25px;
     border-radius: 10px;
     width: 400px;
-    height: 400px;
+    height: fit-content;
     color: rgb(223, 190, 3);
     font-size: 18px;
     font-style: bold;
@@ -597,6 +625,12 @@ footer {
     margin-top: 60px;
   }
   .contactList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .skillsList {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -881,7 +915,7 @@ footer {
       margin-top: 25px;
       border-radius: 10px;
       width: 400px;
-      height: 400px;
+      height: fit-content;
       color: rgb(223, 190, 3);
       font-size: 18px;
       font-style: bold;
@@ -889,6 +923,14 @@ footer {
       margin: 20px;
       margin-left: 100px;
       margin-left: 100px;
+    }
+    .quizApp img:hover {
+      display: flex;
+      flex-wrap: wrap;
+      border-radius: 20px;
+      border: 10px solid silver;
+      width: 300px;
+      height: auto;
     }
     .society {
       display: flex;
@@ -901,7 +943,7 @@ footer {
       margin-top: 25px;
       border-radius: 10px;
       width: 400px;
-      height: 400px;
+      height: fit-content;
       color: rgb(223, 190, 3);
       font-size: 18px;
       font-style: bold;
@@ -915,6 +957,13 @@ footer {
       width: 380px;
       height: auto;
       object-fit: contain;
+    }
+    .society img:hover {
+      display: flex;
+      width: 380px;
+      height: auto;
+      object-fit: contain;
+      border: 10px solid silver;
     }
     .contactPage {
       display: flex;
